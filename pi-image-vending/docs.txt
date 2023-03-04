@@ -1,0 +1,12 @@
+arcade:
+0x31edD5A882583CBf3A712E98E100Ef34aD6934b4
+
+bbb:
+0x8F222727f18c390625ed2292e8E49D0217f314CE
+
+testnet all:
+0x8411Ec26D6Eb5013C2080366C88602716eAa41F3
+
+
+https://zksync2-mainnet.zkscan.io/api?module=account&action=tokenlist&address=0x1bbA25233556a7C3b41913F35A035916DbeD1664
+
