@@ -53,7 +53,7 @@ def dispense_coin():
 	sleep(0.1)
 	GPIO.output(channel, GPIO.LOW)
 	print('dispensed')
-	sleep(3)
+	sleep(15.4)
 	print('dispense done')
 
 print(f'has balance {balance}')
@@ -62,11 +62,11 @@ while True:
 		new_balance = get_balance()
 		if new_balance != balance:
 			print(f'new_balance {new_balance}, balance {balance}')
-		while new_balance - balance > 0:
-			print(f'has {new_balance} from {balance}')
-			dispense_coin()
-			balance += per_token
-		sleep(10)
+			while new_balance - balance > 0:
+				print(f'has {new_balance} from {balance}')
+				dispense_coin()
+				balance += per_token
+		sleep(5)
 	except KeyboardInterrupt:
 		break
 

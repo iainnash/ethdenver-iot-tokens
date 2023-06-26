@@ -50,7 +50,7 @@ def dispense_coin():
 	sleep(0.1)
 	GPIO.output(channel, GPIO.LOW)
 	print('dispensed')
-	sleep(20)
+	sleep(1.2)
 	print('dispense done')
 
 while True:
